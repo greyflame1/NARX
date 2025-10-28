@@ -3,8 +3,6 @@
 Nonlinear ARX Project
 
 This project is an attempt to implement a **nonlinear ARX (AutoRegressive with eXogenous inputs)** model in **MATLAB**.  
-The code works, but the number of regressors is currently smaller than expected.  
-The derived formula is incorrect because it does not generate combinations between the `y` (output) and `u` (input) terms.
 
 To use the project, load the dataset **dateNARX.mat** in MATLAB.  
 After running the script, an error plot will be displayed.  
